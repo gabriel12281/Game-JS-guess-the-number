@@ -13,8 +13,6 @@ function eventos() {
 eventos();
 
 function game() {
-	console.log(numberRandom)
-
 	if (numberRandom === parseInt(numberUser.value)) {
 		num.textContent = numberRandom;
 		setTimeout(() => {
